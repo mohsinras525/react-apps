@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainComp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 140vh;
+  background-color: #aed7e8;
+}
+
+.cv-div {
+  border-radius: 10px;
+  width: 65vw;
+  height: 120vh;
+  z-index: 100;
+  background-color: #fff;
+}
+
+.portions {
+  display: flex;
+}
+
+.div1 {
+  border-radius: 10px;
+  width: 38%;
+  height: 120vh;
+  background-color: #013048;
+}
+
+.image-names > .profile-image {
+  border-radius: 50%;
+  margin-left: 70px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  width: 180px;
+  height: 200px;
+}
+
+.image-names {
+  border-bottom: 1px solid white;
+}
+.image-names > h2,
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image-names > h2 {
+  color: #fff;
+}
+
+.image-names > h3 {
+  color: lightgrey;
+}
+
+.div1 > .cInfo-div {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  line-height: 38px;
+  border-bottom: 1px solid white;
+}
+
+.div1 > .Education-div {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  line-height: 38px;
+}
+
+.cInfo-div,
+.Education-div > h2,
+h4 {
+  color: #fff;
+}
+
+.cInfo-div,
+.Education-div > p {
+  color: #aed7e8;
+}
+
+.div2 {
+  border-radius: 10px;
+  height: 120vh;
+  width: 62%;
+}
+
+.div2 > .profile,
+.experince,
+.skills {
+  height: 33%;
+}
+
+.div2 > .profile,
+.experince,
+.skills > h2,
+p {
+  margin-left: 15px;
+}
